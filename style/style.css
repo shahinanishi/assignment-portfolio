@@ -123,3 +123,89 @@ border-bottom: 2px dashed rgb(199, 199, 214);
     opacity: 0.7;
     margin: 0px 258px 24px 258px;
 }
+
+/* Card styles */
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .container{
+    border-radius: 14px;
+ 
+   background: rgba(13, 19, 33, 0.02);
+    width: 100%;
+    max-width: 1000px;
+    padding: 70px 82px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+#card .card-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 14px;
+    padding: 42px;
+    margin: 28px auto;
+    width: 100%;
+    max-width: 832px;
+}
+
+#card .bg-common{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+#card .bg-unique{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+
+#card .card-box img{
+    width: 228px;
+    height: 190px;
+}
+
+#card .card-box .card-contain h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+#card .card-box .card-contain p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+#card .card-box .card-contain h4{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 41px;
+    padding: 10px 18px 12px 18px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+#card .card-box .card-contain h4:hover{
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
