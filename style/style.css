@@ -209,3 +209,25 @@ border-bottom: 2px dashed rgb(199, 199, 214);
     background-color: #1a1a1a;
     color: #ffffff;
 }
+
+/* Media styles */
+#media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 132px 132px 132px;
+}
+#media .container .video-container{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 14px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 28px;
+
+}
+
+#media .container .video-container iframe{
+    border-radius: 14px;
+}
