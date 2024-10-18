@@ -419,3 +419,35 @@ border-bottom: 2px dashed rgb(199, 199, 214);
     margin-bottom: 21px;
     opacity: 0.8;
 }
+
+/* Footer styles */
+footer {
+    border-radius: 14px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 28px 310px;
+    text-align: center;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 21px;
+    text-decoration: none;
+}
