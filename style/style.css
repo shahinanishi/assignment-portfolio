@@ -346,3 +346,76 @@ border-bottom: 2px dashed rgb(199, 199, 214);
     width: 95px;
     height: 95px;
 }
+
+/* Feedback styles */
+#feedback{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 54px 42px;
+    border-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 80px;
+    margin-left: 320px;
+    margin-right: 320px;
+    height: 190px;
+}
+
+#feedback h1{
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#feedback p{
+    color: rgb(255, 255, 255);
+}
+
+.feedback-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-form input[type="text"] {
+    padding: 17px 18px;
+    font-size: 14px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 7px;
+    width: 482px;
+    margin: 0px 14px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+}
+
+.feedback-form input[type="submit"] {
+    padding: 15px 28px;
+    border-radius: 7px;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.feedback-form input[type="submit"]:hover {
+    background-color:  #1a1a1a;
+    color: white;
+}
+
+#feedback .title{
+    margin-bottom: 14px;
+}
+
+#feedback .description{
+    margin-bottom: 21px;
+    opacity: 0.8;
+}
