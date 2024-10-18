@@ -302,3 +302,47 @@ border-bottom: 2px dashed rgb(199, 199, 214);
     margin-bottom: 21px;
 }
 
+/*Next target style*/
+#next-target{
+    margin-bottom: 60px;
+}
+
+#next-target .container{
+    text-align: center;
+}
+
+#next-target .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+#next-target .skill-card{
+    display: flex;
+    gap: 21px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 14px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    width: 1160px;
+}
+
+#next-target .react-card img{
+    width: 84px;
+    height: 74px;
+    margin: 12px;
+}
+
+#next-target .node-card img{
+    width: 125px;
+    height: 77px;
+    margin: 14px;
+}
+
+#next-target .mongo-card img{
+    width: 95px;
+    height: 95px;
+}
