@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared styles */
+.btn{
+    border-radius: 7px;
+    background: rgb(13, 19, 33);
+    padding: 18px 21px 18px 21px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 42px;
+}
+
+/* Navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 132px 0px 132px;
+}
+
+nav .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav .download-resume{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 7px;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 15px 21px 15px 21px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+nav .download-resume:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Banner styles */
+#banner{
+margin-top: 44px;
+height: 574px;
+background-image: url(../assets/Hero-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+border-top: 2px dashed rgb(199, 199, 214);
+border-bottom: 2px dashed rgb(199, 199, 214);
+}
+
+#banner img{
+    width: 211px;
+    height: 211px;
+    margin-top: 23px;
+    margin-bottom: 28px;
+}
+
+#banner .title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 194px 21px 194px;
+}
+
+#banner .description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0px 258px 24px 258px;
+}
